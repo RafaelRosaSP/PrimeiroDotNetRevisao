@@ -14,6 +14,25 @@ namespace PrimeiroDotNetRev
             Console.WriteLine();
 
             string opcaoUsuario = Console.ReadLine();
+
+            while (opcaoUsuario.ToUpper() != "X")
+            {
+                switch(opcaoUsuario)
+                {
+                    case "1":
+
+                        break;
+                    case "2":
+
+                        break;
+                    case "3":
+                        
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+            }
+            
         }
     }
 }
