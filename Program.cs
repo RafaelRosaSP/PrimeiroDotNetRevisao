@@ -20,13 +20,14 @@ namespace PrimeiroDotNetRev
                 switch(opcaoUsuario)
                 {
                     case "1":
+                    //TO DO: adcionar alundo
 
                         break;
                     case "2":
-
+                    //TO DO: listar alunos
                         break;
-                    case "3":
-                        
+                    case "3
+                    //TO DO: calcular media geral
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
